@@ -14,6 +14,8 @@
 
 ## Building Production Grade AI in Go: a Live Post-mortem
 
+https://github.com/Soypete/talks/blob/main/gowest-2025/talk.md
+
 Don't use Go for full AI model training and inference.
 Use a language that is designed for it, like Python.
 
@@ -21,6 +23,8 @@ Go works great for concurrency AI request handling.
 You can use Go to build a small API that can handle a lot of requests in parallel.
 
 ## Fundamentals of Memory Management in Go: Learning Through the History
+
+https://speakerdeck.com/logica0419/fundamentals-of-memory-management-in-go
 
 Stack frame is a LIFO - First in, last out.
 Google "ABI" to learn more about the Application Binary Interface.
@@ -61,6 +65,8 @@ Contains a CLI for managing pipelines & streaming.
 
 ## Go Channels Demystified
 
+https://docs.google.com/presentation/d/17LduSCj43TbuOoUhsqcqRINFEkJt0DBnUe_rRRZYdwA/edit?usp=sharing
+
 Keep in mind that channels are just in-memory queues.
 
 > Closing a channel just says "I'm done sending messages on this channel", you can still read from the closed channel.
@@ -73,4 +79,8 @@ Using channels _can_ help avoid locking and having to manage mutexes.
 
 ## The basics of "go/ast" for people who can't even spell ast
 
+https://github.com/carsonoid/talk-gowest2025-how-to-spell-ast
+
 ## You're already running my code in production: My journey to become a Go contributor
+
+https://boldlygo.tech/gowest-2025
